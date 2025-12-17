@@ -115,5 +115,5 @@ Emphasis is placed on **recall for churners**, as false negatives represent lost
 
 ---
 
-## 📂 Repository Structure
-
+## 📬 Contact
+If you have questions or would like to discuss this project, feel free to reach out at my email: harrisben458@gmail.com
