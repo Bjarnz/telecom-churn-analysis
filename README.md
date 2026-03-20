@@ -1,7 +1,7 @@
 # Telecom Customer Churn Analysis  
 **Machine Learning | Exploratory Data Analysis | Random Forest Modeling**
 
-## 📌 Project Overview
+##  Project Overview
 Customer churn is a critical business problem in the telecommunications industry, where retaining existing customers is often more cost-effective than acquiring new ones.  
 This project analyzes telecom customer behavior to **identify key drivers of churn** and **build predictive models** that can support proactive retention strategies.
 
@@ -9,7 +9,7 @@ The goal is not only high predictive performance, but **interpretable insights**
 
 ---
 
-## 🧠 Objectives
+##  Objectives
 - Explore customer usage, plan characteristics, and service interactions
 - Identify behavioral patterns associated with churn
 - Build and evaluate a **baseline Random Forest model**
@@ -18,7 +18,7 @@ The goal is not only high predictive performance, but **interpretable insights**
 
 ---
 
-## 📊 Dataset
+##  Dataset
 - Public telecom churn dataset (commonly used for benchmarking churn models)
 - Binary target variable: `Churn`
 - Mixture of:
@@ -32,7 +32,7 @@ The goal is not only high predictive performance, but **interpretable insights**
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 Key preprocessing steps include:
 - Converting categorical yes/no variables into binary indicators
 - Encoding churn as a binary target variable
@@ -43,7 +43,7 @@ All preprocessing is handled **explicitly and transparently** in the notebook.
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 EDA focuses on understanding how customer behavior differs between churners and non-churners.
 
 ### Key Insights
@@ -59,7 +59,7 @@ Visualizations include:
 
 ---
 
-## 🌲 Baseline Model: Random Forest
+##  Baseline Model: Random Forest
 A baseline Random Forest classifier was trained to establish a reliable benchmark.
 
 ### Validation Strategy
@@ -75,7 +75,7 @@ This reflects a common real-world tradeoff: models often favor majority classes 
 
 ---
 
-## ⚙️ Model Tuning & Improvement
+##  Model Tuning & Improvement
 To address the baseline model’s limitations, hyperparameter tuning was applied to:
 - Control tree depth
 - Reduce overfitting
@@ -85,7 +85,7 @@ The tuned model trades some overall accuracy for **significantly better churn re
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 Models are evaluated using:
 - Accuracy
 - Precision
@@ -98,7 +98,7 @@ Emphasis is placed on **recall for churners**, as false negatives represent lost
 
 ---
 
-## 🧩 Technologies Used
+##  Technologies Used
 - Python
 - pandas, NumPy
 - scikit-learn
@@ -107,7 +107,7 @@ Emphasis is placed on **recall for churners**, as false negatives represent lost
 
 ---
 
-## 🚀 Key Takeaways
+##  Key Takeaways
 - Customer service interactions are one of the strongest churn indicators
 - Usage intensity alone does not explain churn — **service friction matters**
 - Model evaluation should align with business costs, not just accuracy
@@ -115,5 +115,5 @@ Emphasis is placed on **recall for churners**, as false negatives represent lost
 
 ---
 
-## 📬 Contact
+##  Contact
 If you have questions or would like to discuss this project, feel free to reach out at my email: harrisben458@gmail.com
